@@ -5,7 +5,7 @@ gem 'roadworker', '0.5.8'
 gem 'radiosonde', '0.1.1'
 gem 'monosasi', '0.1.0'
 gem 'piculet', '0.2.9'
-gem 'miam', '0.2.3'
+gem 'miam', '0.2.4.beta13'
 
 gem 'kelbim', '0.3.0'
 gem 'kumogata2', '0.1.9'
