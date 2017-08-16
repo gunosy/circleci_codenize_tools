@@ -9,7 +9,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: saorio/codenize_tools_circleci:latest
+      - image: saorio/circleci_codenize_tools:latest
     working_directory: ~/<your-repository-name>
     environment:
       AWS_REGION: us-east-1
