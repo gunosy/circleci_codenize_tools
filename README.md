@@ -1,5 +1,5 @@
 # About this repository
-For running codenize.tools on circleCI[DockerImage](https://hub.docker.com/r/saorio/circleci_codenize_tools/)
+For running codenize.tools on circleCI[DockerImage](https://hub.docker.com/r/gunosy/circleci_codenize_tools/)
 
 
 ## How to Use for CircleCI
@@ -9,7 +9,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: saorio/circleci_codenize_tools:latest
+      - image: gunosy/circleci_codenize_tools:latest
     working_directory: ~/<your-repository-name>
     environment:
       AWS_REGION: us-east-1
