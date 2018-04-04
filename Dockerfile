@@ -1,13 +1,10 @@
-FROM circleci/ruby:2.2.7
-WORKDIR /root/
-ADD work work
+FROM ruby:2.5.0-alpine
 
-RUN sudo apt-get update && sudo apt-get upgrade -y
-RUN sudo apt-get install -y libpcap-dev
+RUN apk --update --no-cache --virtual add libpcap-dev make gcc g++
+
+WORKDIR /root/work
 
 COPY work/Gemfile $WORKDIR
 COPY work/Gemfile.lock $WORKDIR
 
-WORKDIR /root/work/
-RUN sudo gem update
-RUN sudo bundle install
+RUN bundle install
