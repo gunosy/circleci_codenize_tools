@@ -1,18 +1,18 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    aws-sdk (2.11.24)
-      aws-sdk-resources (= 2.11.24)
-    aws-sdk-core (2.11.24)
+    aws-sdk (2.11.27)
+      aws-sdk-resources (= 2.11.27)
+    aws-sdk-core (2.11.27)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.11.24)
-      aws-sdk-core (= 2.11.24)
+    aws-sdk-resources (2.11.27)
+      aws-sdk-core (= 2.11.27)
     aws-sdk-v1 (1.67.0)
       json (~> 1.4)
       nokogiri (~> 1)
     aws-sigv4 (1.0.2)
-    bukelatta (0.1.7)
+    bukelatta (0.1.8)
       aws-sdk (>= 2.3.0)
       diffy
       hashie
@@ -29,7 +29,7 @@ GEM
     diff-lcs (1.3)
     diffy (3.2.0)
     dslh (0.4.8)
-    eipmap (0.1.4)
+    eipmap (0.1.5)
       aws-sdk (>= 2.1)
       term-ansicolor
     hash_modern_inspect (0.1.1)
@@ -37,7 +37,7 @@ GEM
     highline (1.7.10)
     jmespath (1.3.1)
     json (1.8.6)
-    kelbim (0.3.0)
+    kelbim (0.3.1)
       aws-sdk-v1 (>= 1.59.0)
       diffy
       hashie
@@ -45,7 +45,7 @@ GEM
       rspec
       term-ansicolor
       uuid
-    kumogata2 (0.1.9)
+    kumogata2 (0.1.16)
       aws-sdk (>= 2.3.0)
       coderay
       diffy
@@ -54,8 +54,8 @@ GEM
       term-ansicolor
     macaddr (1.7.1)
       systemu (~> 2.6.2)
-    mappru (0.1.5)
-      aws-sdk (>= 2.3.0)
+    mappru (0.1.8)
+      aws-sdk (~> 2)
       diffy
       hash_modern_inspect
       hashie
@@ -65,15 +65,15 @@ GEM
       aws-sdk-core (~> 2.0)
       json
       term-ansicolor
-    miam (0.2.4.beta13)
-      aws-sdk-core (>= 2.0.42)
+    miam (0.2.4.beta16)
+      aws-sdk-core (>= 2.0.42, < 3)
       diffy
       hashie
       parallel
       ruby-progressbar
       term-ansicolor
     mini_portile2 (2.3.0)
-    monosasi (0.1.1.beta)
+    monosasi (0.1.2)
       aws-sdk (>= 2.5)
       diffy
       hashie
@@ -107,8 +107,8 @@ GEM
       hashie
       parallel
       term-ansicolor
-    roadworker (0.5.8)
-      aws-sdk (>= 2.2.34)
+    roadworker (0.5.9.beta6)
+      aws-sdk (~> 2.2)
       diffy
       hashie
       net-dns2 (~> 0.8.6)
@@ -140,20 +140,19 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bukelatta (= 0.1.7)
+  bukelatta (= 0.1.8)
   cfdef (= 0.1.8)
-  eipmap (= 0.1.4)
-  kelbim (= 0.3.0)
-  kumogata2 (= 0.1.9)
-  mappru (= 0.1.5)
+  eipmap (= 0.1.5)
+  kelbim (= 0.3.1)
+  kumogata2 (= 0.1.16)
+  mappru (= 0.1.8)
   meteorlog (= 0.1.0)
-  miam (= 0.2.4.beta13)
-  monosasi (= 0.1.1.beta)
-  nokogiri (= 1.8.2)
+  miam (= 0.2.4.beta16)
+  monosasi (= 0.1.2)
   piculet (= 0.2.9)
   radiosonde (= 0.2.0.beta2)
   repol (= 0.1.3)
-  roadworker (= 0.5.8)
+  roadworker (= 0.5.9.beta6)
 
 BUNDLED WITH
    1.16.1
