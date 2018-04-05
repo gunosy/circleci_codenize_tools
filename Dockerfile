@@ -1,6 +1,6 @@
 FROM ruby:2.5.0-alpine
 
-RUN apk --update --no-cache --virtual add libpcap-dev make gcc g++ curl
+RUN apk --update --no-cache --virtual add libpcap-dev make gcc g++ curl bash
 
 WORKDIR /root/work
 
