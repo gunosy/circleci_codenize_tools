@@ -4,7 +4,7 @@ ADD work work
 
 COPY work/Gemfile $WORKDIR
 
-RUN sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y libpcap-dev python-dev python-pip
+RUN sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y libpcap-dev groff-base python-dev python-pip
 RUN sudo pip install awscli
 
 WORKDIR /root/work/
