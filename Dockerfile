@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.2.7
+FROM circleci/ruby:2.3.7
 WORKDIR /root/
 ADD work work
 
