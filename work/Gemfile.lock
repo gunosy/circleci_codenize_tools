@@ -1,15 +1,3 @@
-GIT
-  remote: git://github.com/hoshitocat/monosasi.git
-  revision: e9fbbfc99561114755a6d88cc35214176aa65ca2
-  specs:
-    monosasi (0.1.3.beta2)
-      aws-sdk (>= 2.11.118)
-      diffy
-      hashie
-      parallel
-      pp_sort_hash
-      term-ansicolor
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -85,6 +73,13 @@ GEM
       ruby-progressbar
       term-ansicolor
     mini_portile2 (2.3.0)
+    monosasi (0.1.3.beta4)
+      aws-sdk (>= 2.11.118)
+      diffy
+      hashie
+      parallel
+      pp_sort_hash
+      term-ansicolor
     multi_xml (0.6.0)
     net-dns2 (0.8.7)
       packetfu
@@ -153,7 +148,7 @@ DEPENDENCIES
   mappru (= 0.1.8)
   meteorlog (= 0.1.0)
   miam (= 0.2.4.beta16)
-  monosasi!
+  monosasi (= 0.1.3.beta4)
   piculet (= 0.2.9)
   radiosonde (= 0.2.0.beta2)
   repol (= 0.1.3)
