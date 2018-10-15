@@ -1,7 +1,7 @@
 FROM gunosy/codenize-notify:latest AS notifier
 FROM ruby:2.5.1-alpine3.7
 
-RUN apk --update --no-cache --virtual add libpcap-dev make gcc g++
+RUN apk --update --no-cache --virtual add bash libpcap-dev make gcc g++
 
 COPY --from=notifier /go/dist/linux_amd64/codenize-notify /usr/local/bin/
 
