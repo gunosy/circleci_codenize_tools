@@ -27,4 +27,5 @@ jobs:
             fi
 ```
 
-CircleCI AWS Permissions requires setting Key and Secret.
+## Notice
+CircleCI requires AWS permissions.
