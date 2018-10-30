@@ -1,17 +1,18 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    aws-sdk (2.11.155)
-      aws-sdk-resources (= 2.11.155)
-    aws-sdk-core (2.11.155)
+    aws-sdk (2.11.159)
+      aws-sdk-resources (= 2.11.159)
+    aws-sdk-core (2.11.159)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.11.155)
-      aws-sdk-core (= 2.11.155)
+    aws-sdk-resources (2.11.159)
+      aws-sdk-core (= 2.11.159)
     aws-sdk-v1 (1.67.0)
       json (~> 1.4)
       nokogiri (~> 1)
     aws-sigv4 (1.0.3)
+    aws_config (0.1.0)
     bukelatta (0.1.8)
       aws-sdk (>= 2.3.0)
       diffy
@@ -89,10 +90,12 @@ GEM
       pcaprub
     parallel (1.12.1)
     pcaprub (0.13.0)
-    piculet (0.2.9)
+    piculet (0.3.0)
       aws-sdk-v1 (>= 1.48.0)
+      aws_config (= 0.1.0)
       diffy
       hashie
+      nokogiri (~> 1.8.2)
       term-ansicolor (>= 1.2.2)
     pp_sort_hash (0.1.0)
     radiosonde (0.2.0.beta2)
@@ -149,10 +152,10 @@ DEPENDENCIES
   meteorlog (= 0.1.0)
   miam (= 0.2.4.beta16)
   monosasi (= 0.1.3.beta4)
-  piculet (= 0.2.9)
+  piculet (= 0.3.0)
   radiosonde (= 0.2.0.beta2)
   repol (= 0.1.3)
   roadworker (= 0.5.9.beta6)
 
 BUNDLED WITH
-   1.16.4
+   1.16.6
