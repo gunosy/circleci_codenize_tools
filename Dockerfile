@@ -1,5 +1,5 @@
 FROM gunosy/codenize-notify:latest AS notifier
-FROM ruby:2.5.1-alpine3.7
+FROM ruby:2.3.8-alpine3.7
 
 RUN apk --update --no-cache --virtual add bash git openssh-client libpcap-dev make gcc g++
 RUN mkdir -p ~/.ssh && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
