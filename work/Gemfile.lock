@@ -36,7 +36,7 @@ GEM
     hash_modern_inspect (0.1.1)
     hashie (3.6.0)
     highline (2.0.0)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     json (1.8.6)
     kelbim (0.3.1)
       aws-sdk-v1 (>= 1.59.0)
